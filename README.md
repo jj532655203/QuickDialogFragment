@@ -4,22 +4,22 @@
     对于非全屏的、一看便知的弹框,使用DialogFragment是无争议的。
     产品经理给到开发者手中的某个功能模块，往往有好几个界面，我们的目标是尽量用DialogFragment而非使用Activity组件（启动一个activity的速度肯定不如弹出一个dialogFragment快），我们如何判断哪些界面是属于弹框性质的，哪些界面适合用activity呢？很重要的原则是：从逻辑出发。如下需求
     
-    ![Image](https://github.com/jj532655203/QuickDialogFragment/master/entrance.jpg)
+    ![Image](https://github.com/jj532655203/QuickDialogFragment/blob/master/entrance.png)
 图1
     
-    ![Image](https://github.com/jj532655203/QuickDialogFragment/master/拍照中.jpg)
+    ![Image](https://github.com/jj532655203/QuickDialogFragment/blob/master/拍照中.png)
     图2
     
-    ![Image](https://github.com/jj532655203/QuickDialogFragment/master/裁剪.jpg)
+    ![Image](https://github.com/jj532655203/QuickDialogFragment/blob/master/裁剪.png)
     图3
     
-    ![Image](https://github.com/jj532655203/QuickDialogFragment/master/作业预览.jpg)
+    ![Image](https://github.com/jj532655203/QuickDialogFragment/blob/master/作业预览.png)
     图4
     
-    ![Image](https://github.com/jj532655203/QuickDialogFragment/master/填写作业名称.jpg)
+    ![Image](https://github.com/jj532655203/QuickDialogFragment/blob/master/填写作业名称.png)
     图5
     
-    ![Image](https://github.com/jj532655203/QuickDialogFragment/master/设置交作业时间.jpg)
+    ![Image](https://github.com/jj532655203/QuickDialogFragment/blob/master/设置交作业时间.png)
     图6
     
     这些界面都是全屏的,如果全部使用activity组件去展示,界面间的入场速度会比较慢,尤其是和拍照界面相关时。

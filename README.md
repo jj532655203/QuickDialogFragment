@@ -1,4 +1,6 @@
-# 一.DialogFragment用于用户体验加速优化
+这是一篇技术文档,而非过程。
+
+# 一.分析需求逻辑,巧用DialogFragment,提高功能流畅度
 由于DialogFragment可以很方便的定制尺寸和样式等优点,目前DialogFragment已经逐步代替Dialog。
 然而本文要讲的是DialogFragment用于用户体验加速优化。
     对于非全屏的、一看便知的弹框,使用DialogFragment是无争议的。
